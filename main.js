@@ -30,3 +30,9 @@ app.whenReady().then(() => {
 app.on('window-all-closed', function () {
   if (process.platform !== 'darwin') app.quit()
 })
+
+// app.on('ready', function()  {
+//   require('update-electron-app')({
+//     repo: 'sj-eo/ipc2'
+//   });
+// });
